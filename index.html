@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="script.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC2</title>
+</head>
+<body>
+    <h1>AC2 - Programação Web</h1>
+    <button type="button" id="exercicio1" class="btn btn-primary">Exercicio 1</button>
+    <button type="button" id="exercicio2" class="btn btn-secondary">Exercício 2</button>
+    <button type="button" id="exercicio3" class="btn btn-success">Exercício 3</button>
+    <button type="button" id="exercicio4" class="btn btn-danger">Exercício 4</button>
+    <button type="button" id="exercicio6" class="btn btn-primary">Exercício 6</button>
+    <input name="searchTxt" type="text" maxlength="512" id="input-exc4" class="searchField" />
+
+    <h1>Calculadora - Exercício 5</h1>
+    <input type="number" id="valor1" placeholder="Primeiro valor">
+    <input type="number" id="valor2" placeholder="Segundo valor">
+
+    <select id="operador">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+
+    <button id="calcularBtn">Calcular</button>
+    <p id="resultado"></p>
+
+    <h1>Cálculo do Custo do Carro - Exercício 7</h1>
+    <form id="formCustoCarro">
+        <label for="custoFabrica">Custo de Fábrica:</label>
+        <input type="number" id="custoFabrica" placeholder="Custo de Fábrica"><br>
+
+        <label for="percDistribuidor">% Distribuidor:</label>
+        <input type="number" id="percDistribuidor" placeholder="% Distribuidor"><br>
+
+        <label for="percImpostos">% Impostos:</label>
+        <input type="number" id="percImpostos" placeholder="% Impostos"><br>
+
+        <button type="button" id="calcularCusto">Calcular Custo Final</button>
+    </form>
+
+    <p>Valor Final: <span id="valorFinal"></span></p>
+
+</body>
+</html>
